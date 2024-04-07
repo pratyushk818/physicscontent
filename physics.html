@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter&family=Poppins:wght@700;700&family=Roboto:wght@500;700&display=swap');
+
+*
+{
+    font-family: 'poppins';
+    scroll-behavior: smooth;
+}
+        .h1 {
+            height: 60px;
+            right: 0px;
+            left: 0px;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 13px -3px rgba(128, 128, 128, 0.304);
+            position:fixed;
+            left:0;
+            right:0;
+            top:0;
+            z-index: 30;
+            background-color: #ffffff;
+            
+        }
+
+        .bdy {
+            z-index: 1;
+            height: 600px;
+            position: absolute;
+            top:65px;
+            left: 0px;
+            right: 0px;
+        }
+        .lftmrgn
+        {
+            background-color: rgba(240, 240, 240, 0.646);
+            width:250px;
+            display:flex;
+            align-items: left;
+            flex-direction: column;
+            height:100vh;
+            z-index: 2;
+            position:fixed;
+           
+        }
+        .lftmrgn ul li
+        {
+         margin-bottom: 30px;
+         list-style-type: none;
+         margin-left: -10px;
+         font-weight: 300;
+        
+        }
+        .cntnt
+        {
+            position:relative;;
+            top:5px;
+            display:block;
+            width:820px;
+            left:270px;
+            font-weight: 500;
+            z-index: 1;
+        }
+        #logo
+        {
+            height:300px;
+            width:300px;
+            position:relative;
+            top:-100px;
+            left:42%;
+            
+        }
+        #subsc
+        {
+            background-color: rgb(216, 216, 216);
+            padding:10px;
+            position:relative;
+            left:-30px;
+            width:230px;
+            top:-10px;
+            display: flex;
+            font-weight: 600;
+            font-size: 20px;
+            justify-content: center;
+            background-color: #2c7da0;
+            color:rgb(252, 231, 42);
+        }
+        #boom
+        {
+            animation: boom 1.5s ease-out infinite;
+            font-size: 30px;
+            position:relative;
+            top:-5px;
+            
+        }
+        @keyframes boom {
+            0%{
+                transform:rotate(0deg);
+            }
+            100%
+            {
+                transform: rotate(360deg);
+            }
+         
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        #frstpic
+        {
+            width:800px;
+            float:top;
+            height:600px;
+        }
+        .lftmrgn a:hover
+        {
+            color:rgb(108, 108, 108);
+        }
+        #scndlst
+        {
+            color:#2d2d2d;
+            
+        }
+        .hdng1
+        {
+            font-weight: 600;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .sec2 img 
+        {
+            margin-top: 25px;
+            width:800px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h1"><img src="LearNexus-removebg-preview.png" alt="logo" id="logo"> </div>
+   
+    <div class="bdy">
+        <div class="lftmrgn">
+            <ul>
+               <a href="#"> <li id="subsc"> Susbcribe Now <span id="boom">💥</span> </li> </a>
+               <a href="#"> <li>Physics</li></a>
+               <a href="#"> <li>Mechanics</li></a>
+               <a href="#"> <li>Optics</li></a>
+               <a href="#"> <li>Thermodynamics</li></a>
+               <a href="#"> <li>Electromagnetism</li></a>
+               <a href="#"> <li>Atomic and nuclear physics</li></a>
+            </ul>
+        </div>
+
+      <div class="cntnt"> The study of matter, its characteristics, such as its motion and behavior across space and time, as well as the associated amounts of energy and force, is covered in the scientific field of physics. One of the earliest fields of science is physics. With each new discovery in the actual world, we learn something new. As hypotheses are created and advancements are achieved over time, both the query and the solution alter.
+    <img src="https://5.imimg.com/data5/PZ/GP/EJ/SELLER-68307306/physics-tuition-500x500.jpg" alt="" id="frstpic">
+    <br>
+
+    <span style="text-align: center; display:flex; align-items: center; justify-content: center; font-size: 30px;font-weight: 500; color:#2c7da0">What is Physics?</span>
+    The underlying rules of the universe are understood and described using the study of physics. Starting from tiny particles that constitute matter to the massive forces that rule the cosmos, physics comprises of many topics and concepts. The word physics is made from the Greek word physikos meaning natural or physical.
+
+    New technologies are frequently made possible by improvements in physics. For example let us consider, our knowledge of physics and its subfields have led us to create goods such as television, computers, home appliances, and nuclear weapons. Similarly, improvements in thermodynamics have drastically affected the growth of industrialization, and improvements in mechanics have influenced the creation of calculus.
+    
+    
+<br>
+
+<span style="text-align: center; display:flex; align-items: center; justify-content: center; font-size: 30px;font-weight: 500; color:#2c7da0">Branches of Physics</span>
+Various concepts are studied in the field of Physics. Physics is divided into categories based on the topics studied in those subfields. 
+<ul >
+    <li id="scndlst">Mechanics</li>
+    <li id="scndlst">Optics</li>
+    <li id="scndlst">Thermodynamics</li>
+    <li id="scndlst">Electromagnetism</li>
+    <li id="scndlst">Atomic and Nuclear Physics</li>
+</ul> 
+ 
+<br>
+    <!-- section 2-->
+        <ul>
+            <li><a href="#"><span style="font-weight: 600; color:#2c7da0">Mechanics:</span></a> Mechanics study how matter, force, and motion are related to one another with respect to physical objects. The three branches of mechanics are :
+                <ul>
+                    <li>Statics, which studies forces acting on and inside a body when it is at rest,</li>
+                    <li> Kinematics, which defines possible motions of a body or system of bodies,</li>
+                    <li>Kinetics, which explains or predicts the motion that will occur in a certain situation or specific condition.</li>
+                </ul>
+                </li></a>
+            <li><a href="#"><span style="font-weight: 600; color:#2c7da0">Optics:</span></a>The behavior and qualities of light, particularly how it interacts with materials and how to create devices that can either use or detect it, are the focus of the branch of physics known as optics. Visible, ultraviolet, and infrared light behavior is often described by the science of optics. Light has many properties in common with X-rays, microwaves, and radio waves because it is an electromagnetic wave.</li></a>
+            <li><a href="#"><span style="font-weight: 600; color:#2c7da0">Thermodynamics:</span></a>The study of the interaction between heat, work, temperature, and energy is known as thermodynamics. Thermodynamics broadly refers to the process of moving energy from one location or form to another. The fundamental principle is that heat is a kind of energy that is equivalent to a specific quantity of mechanical labour.</li></a>
+            <li><a href="#"><span style="font-weight: 600; color:#2c7da0">Electromagnetism:</span></a> The study of charge and the fields and forces it generates is known as electromagnetism. Two components of electromagnetism are electricity and magnetism. One of the four basic forces of nature is the electromagnetic force. In interactions between atoms and molecules, it is the dominating force. Electromagnetism can be referred to as a mixture of electrostatics and magnetism, two separate interrelated phenomena. Magnetism is an interaction that only happens between charged particles in relative motion, whereas electromagnetic forces happen between any two charged particles, generating an attraction between particles with opposing charges and repulsion between particles with the same charge. 
+
+            </li></a>
+            <li><a href="#"><span style="font-weight: 600; color:#2c7da0">Atomic and Nuclear Physics:</span></a>The atomic nucleus’ structure and the radiation that results from unstable nuclei are the subjects of this branch of physics. In addition to researching other types of nuclear matter, the study of atomic nuclei, their components, and their interactions is known as nuclear physics. Atomic physics, which examines the atom as its whole, including its electrons, should not be confused with nuclear physics.</li></a>
+        </ul>
+    </div>
+
+</div>
+    </div>
+</body>
+
+</html>
